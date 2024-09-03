@@ -2,7 +2,7 @@
 
 ## System Information
 
-- **Processor:** Intel64 Family 6 Model 154 Stepping 4, GenuineIntel
+- **Processor:** Intel64 Family 6 Model 154 Stepping 4, GenuineIntel 
 - **RAM:** 15.68 GB
 - **Operating System:** Windows 11
 
