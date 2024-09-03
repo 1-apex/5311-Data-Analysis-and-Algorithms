@@ -10,7 +10,7 @@
 
 The following plot illustrates the performance of various sorting algorithms across different input sizes.
 
-![Sorting Algorithms Benchmark](https://github.com/user-attachments/assets/14f254ac-d881-407e-9583-c741cf685482)
+![Sorting Algorithms Benchmark](https://github.com/user-attachments/assets/7789b799-f201-4aa9-b668-479d4b62bb57)
 
 ## Conclusion
 
