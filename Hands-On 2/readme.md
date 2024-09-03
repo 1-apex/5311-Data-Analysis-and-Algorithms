@@ -1,5 +1,5 @@
 # Selection Sort Algorithm: Correctness Proof
-
+ 
 ## Overview
 
 Selection sort is a simple, comparison-based sorting algorithm. It works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the array and swapping it with the first element of the unsorted portion. This process continues until the entire array is sorted.
