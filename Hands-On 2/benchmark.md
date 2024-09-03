@@ -2,9 +2,23 @@
 
 ## System Information
 
-- **Processor:** Intel64 Family 6 Model 154 Stepping 4, GenuineIntel 
-- **RAM:** 15.68 GB
-- **Operating System:** Windows 11
+- **Operating System:** Microsoft Windows 11 Home Single Language (64-bit)
+- **Model:** HP HP Laptop 15s-fq5xxx
+- **Motherboard:** HP 8A20
+
+### CPU Information
+
+- **Name:** Intel Core i5-1235U
+- **Topology:**
+  - **Processor:** 1
+  - **Cores:** 10
+  - **Threads:** 12
+- **Identifier:** GenuineIntel Family 6 Model 154 Stepping 4
+- **Base Frequency:** 1.30 GHz
+
+### RAM
+
+- **Total Installed Memory:** 15.68 GB
 
 ## Benchmark Results
 
