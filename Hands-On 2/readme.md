@@ -1,5 +1,6 @@
-**Name** : Prathamesh Patil
-**ID** : 1002233913
+### Name : Prathamesh Patil
+### Student ID: `1002233913`
+
 
 # Selection Sort Algorithm: Correctness Proof
  
