@@ -25,10 +25,10 @@ The time complexity of the recursive Fibonacci code is `O(2^n)`, which is expone
 
 #### Reasons:
 ##### Recursive Calls:
-    - For each call to fib(n), the function makes two recursive calls: fib(n-1) and fib(n-2). This branching happens at every level, resulting in a large number of repeated calculations.
+- For each call to fib(n), the function makes two recursive calls: `fib(n-1)` and `fib(n-2)`. This branching happens at every level, resulting in a large number of repeated calculations.
 
 ##### Overlapping Subproblems:
-    - Many Fibonacci numbers are recalculated multiple times. For example, fib(2) and fib(1) are computed multiple times across the recursion tree. This duplication of work grows rapidly as n increases.
+- Many Fibonacci numbers are recalculated multiple times. For example, `fib(2)` and `fib(1)` are computed multiple times across the recursion tree. This duplication of work grows rapidly as n increases.
 
 For each Fibonacci number `n`, the function makes about `2^n` recursive calls due to the repeated recalculations, leading to the exponential time complexity `O(2^n)`.
 
@@ -36,10 +36,10 @@ For each Fibonacci number `n`, the function makes about `2^n` recursive calls du
 ## Ways we can improve the implementation of Fibonacci 
 
 ### 1. Memoization:
-        - We can create a memory to store the calculated results of the values so that we avoid recalculating them, and that could reduce the time complexity by `O(n)` considering `O(1)` time to fetch the values of precomputed ones from the map.
+- We can create a memory to store the calculated results of the values so that we avoid recalculating them, and that could reduce the time complexity by `O(n)` considering `O(1)` time to fetch the values of precomputed ones from the map.
 
 ### 2. Dynamic Programming
-        - We can simply use arrays and store the results and iterate upto n. Even this approach could achieve `O(n)` time complexity. 
+- We can simply use arrays and store the results and iterate upto `n`. Even this approach could achieve `O(n)` time complexity. 
 
 
 
