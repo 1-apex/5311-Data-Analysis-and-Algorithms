@@ -1,4 +1,9 @@
+stack = []
+
 def fib(n):
+    # debugging : storing call stack
+    stack.append(f'fib{n}')
+    
     # base conditions
     if n == 0:
         return 0
@@ -9,6 +14,9 @@ def fib(n):
 
 def main():
     print(fib(5))
+    
+    print("Recursive call stack : ", stack)
+    # Output: Recursive call stack :  ['fib5', 'fib4', 'fib3', 'fib2', 'fib1', 'fib0', 'fib1', 'fib2', 'fib1', 'fib0', 'fib3', 'fib2', 'fib1', 'fib0', 'fib1']
 
 if __name__ == "__main__":
     main()
