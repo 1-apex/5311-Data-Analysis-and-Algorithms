@@ -6,7 +6,7 @@
 This project implements a generic **Heap** class in Python.
 
 This Python implementation supports:
-- A **generic heap** structure, allowing for various data types (integers, floats, and long integers).
+- A **generic heap** structure, allowing for various data types (can store floats, int, custom datastructure).
 - The **min-heap** property where the smallest element is always the root.
 - Heap operations:
   - **Inserting** new elements into the heap.
