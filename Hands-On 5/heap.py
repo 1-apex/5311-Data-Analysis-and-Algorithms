@@ -113,7 +113,7 @@ if __name__ == '__main__':
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
     
-    # Example 5 (float array)
+    # Example 5 (float/double array)
     arr = [5.6, 2.3, 9.8, 7.1, 1.2, 4.5, 8.9]
     heap = Heap(arr)
     heap.build_min_heap()
@@ -134,6 +134,12 @@ if __name__ == '__main__':
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
     
+    # Example 8 (empty array)
+    arr = []
+    heap = Heap(arr)
+    heap.build_min_heap()
+    print(f'Min Heap : {heap.heap}')
+    
     # --------------------------------------------------------------------------------------
     print("--------------------------------------------------------------------------------------\n")
     
@@ -151,6 +157,8 @@ if __name__ == '__main__':
     
     # GET ROOT NODE
     arr = [9, 4, 7, 1, 3, 2, 6]
+    print(f'Initital Array : {arr}')
+    
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Heap formed : {heap.heap}')
@@ -161,6 +169,6 @@ if __name__ == '__main__':
     
     # POP ROOT NODE 
     heap.pop()
-    print(f'Heap after root popped : {heap.heap}')
+    print(f'Heap after root popped : {heap.heap}\n')
     
     # --------------------------------------------------------------------------------------
