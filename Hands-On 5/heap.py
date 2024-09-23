@@ -93,36 +93,42 @@ if __name__ == '__main__':
     heap = Heap(arr)
     heap.build_min_heap()    
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [5, 10, 25, 20, 15, 30, 50]
     
     # Example 2 (normal random array)
     arr = [4, 10, 3, 5, 1]
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [1, 4, 3, 5, 10]
     
     # Example 3 (min heap)
     arr = [1, 2, 3, 4, 5, 6, 7]
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [1, 2, 3, 4, 5, 6, 7]
     
     # Example 4 (integer array)
     arr = [7, 6, 5, 4, 3, 2, 1]
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [1, 3, 2, 4, 6, 7, 5]
     
     # Example 5 (float/double array)
     arr = [5.6, 2.3, 9.8, 7.1, 1.2, 4.5, 8.9]
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [1.2, 2.3, 4.5, 7.1, 5.6, 9.8, 8.9]
     
     # Example 6 (large integer array)    
     arr = [50, 20, 30, 10, 15, 5, 25, 70, 65, 60, 55, 85, 90, 40, 35, 100, 45, 80, 95, 75]
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [5, 10, 25, 20, 15, 30, 35, 45, 65, 60, 55, 85, 90, 40, 50, 100, 70, 80, 95, 75]
     
     # Example 7 (long (datatype) array)
     arr = [50123456789, 20123456789, 30123456789, 10123456789, 15123456789, 5123456789, 
@@ -132,12 +138,14 @@ if __name__ == '__main__':
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}\n')
+    # Output: [5123456789, 10123456789, 25123456789, 20123456789, 15123456789, 30123456789, 35123456789, 45123456789, 65123456789, 60123456789, 55123456789, 85123456789, 90123456789, 40123456789, 50123456789, 100123456789, 70123456789, 80123456789, 95123456789, 75123456789]
     
     # Example 8 (empty array)
     arr = []
     heap = Heap(arr)
     heap.build_min_heap()
     print(f'Min Heap : {heap.heap}')
+    # Output: []
     
     # --------------------------------------------------------------------------------------
     
@@ -146,9 +154,11 @@ if __name__ == '__main__':
     heap = Heap(arr)
     heap.insertElement(2)
     print("Heap after inserting 2:", heap.heap)
+    # Output:  [2, 5, 25, 10, 15, 30, 50, 20]
 
     heap.insertElement(8)
     print("Heap after inserting 8:", heap.heap, "\n")
+    # Output:  [2, 5, 25, 8, 15, 30, 50, 20, 10]
     
     # --------------------------------------------------------------------------------------
     
@@ -160,11 +170,16 @@ if __name__ == '__main__':
     heap.build_min_heap()
     print(f'Heap formed : {heap.heap}')
     print(f'Root element : {heap.get_root()}\n')
+    # Output: Heap formed : [1, 3, 2, 4, 9, 7, 6]
+    #         Root element : 1
     
     # --------------------------------------------------------------------------------------
     
     # POP ROOT NODE 
+    # arr = [9, 4, 7, 1, 3, 2, 6]
+    # heap formed : [1, 3, 2, 4, 9, 7, 6] (reference line 170)
     heap.pop()
     print(f'Heap after root popped : {heap.heap}\n')
+    # Output: [2, 3, 6, 4, 9, 7]
     
     # --------------------------------------------------------------------------------------
