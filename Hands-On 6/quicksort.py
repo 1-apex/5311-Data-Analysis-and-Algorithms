@@ -38,11 +38,12 @@ def test_quick_sort():
         "Case 2 - Reverse Sorted": [6, 5, 4, 3, 2, 1],
         "Case 3 - All Identical": [5, 5, 5, 5, 5, 5],
         "Case 4 - Random Order": [3, 1, 4, 2, 6, 5],
-        "Case 5 - Large Range": [1000, 200, 3000, 600, 150, 50],
-        "Case 6 - Empty Array": [],
-        "Case 7 - Single Element": [1],
-        "Case 8 - Two Elements (Sorted)": [1, 2],
-        "Case 9 - Two Elements (Unsorted)": [2, 1]
+        "Case 5 - Random Order": [-3, -6, 1, 2, -7, 5],
+        "Case 6 - Large Range": [1000, 200, 3000, 600, 150, 50],
+        "Case 7 - Empty Array": [],
+        "Case 8 - Single Element": [1],
+        "Case 9 - Two Elements (Sorted)": [1, 2],
+        "Case 10 - Two Elements (Unsorted)": [2, 1]
     }
 
     for case_name, arr in test_cases.items():
