@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Stack {
+public class Stack {
 
     private final int[] stack = new int[10];  // Stack of fixed size 10
     private int top = -1;               // To track the top of the stack
