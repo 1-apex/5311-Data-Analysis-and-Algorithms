@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "5311-Data-Analysis-and-Algorithms_d50db1ee"
+        },
+        {
+            "type": "java",
+            "name": "HashTable",
+            "request": "launch",
+            "mainClass": "HashTable",
+            "projectName": "5311-Data-Analysis-and-Algorithms_d50db1ee"
+        },
+        {
+            "type": "java",
             "name": "Stack",
             "request": "launch",
             "mainClass": "Stack",
