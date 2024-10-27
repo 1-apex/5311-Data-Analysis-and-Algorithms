@@ -62,13 +62,11 @@ class BinarySearchTree:
             node.right, deleted = self._delete_recursive(node.right, key)
             return node, deleted
 
-        # Node with the key found
         if node.left is None:
             return node.right, True
         elif node.right is None:
             return node.left, True
 
-        # Node with two children, get the inorder successor
         temp = self._min_value_node(node.right)
         node.key = temp.key
         node.right, _ = self._delete_recursive(node.right, temp.key)
@@ -91,7 +89,6 @@ class BinarySearchTree:
         return result
 
 
-# Main program for BST
 def bst_program():
     bst = BinarySearchTree()
     while True:
