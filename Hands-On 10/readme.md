@@ -13,6 +13,3 @@ Each tree implementation includes:
 - **Deletion**
 - **Search**
 - **In-order Traversal**
-
-## Testing
-Each data structure has test cases to verify the correctness of its operations.
