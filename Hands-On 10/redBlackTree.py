@@ -246,3 +246,22 @@ def rbt_program():
             print("Invalid choice. Please try again.")
 
 rbt_program()
+
+
+# Test Cases
+
+# 1. Insert Nodes and Check Order
+# Input: Insert values 10, 20, 15, 30, 5, then perform an in-order traversal.
+# Expected Output: In-order traversal should return [5, 10, 15, 20, 30]
+
+# 2. Delete a Node and Verify Structure
+# Input: Insert values 10, 20, 15, delete 10, then perform an in-order traversal.
+# Expected Output: In-order traversal should return [15, 20]
+
+# 3. Search for a Node
+# Input: Insert 10, 20, 15, search for 15 and 25.
+# Expected Output: "15 found in Red-Black Tree.", "25 not found in Red-Black Tree."
+
+# 4. Edge Case (Deleting Root Node)
+# Input: Insert 10, delete 10, then perform in-order traversal.
+# Expected Output: In-order traversal should return an empty list []

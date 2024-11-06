@@ -8,7 +8,7 @@ This repository contains implementations of three tree data structures in Python
 2. **Red-Black Tree (RBT)** - A balanced binary search tree using color properties and rotations.
 3. **AVL Tree** - A balanced binary search tree using height-based rotations.
 
-Each tree implementation includes:
+Each tree implementation includes these operations:
 - **Insertion**
 - **Deletion**
 - **Search**

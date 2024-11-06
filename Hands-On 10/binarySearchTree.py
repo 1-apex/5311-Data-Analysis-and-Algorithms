@@ -118,3 +118,42 @@ def bst_program():
             print("Invalid choice. Please try again.")
 
 bst_program()
+
+
+# Test cases and expected outputs
+
+# Test Case 1: Insert nodes in BST
+# Input:
+# bst_program()
+# Choices: 1, 15; 1, 10; 1, 20; 1, 8; 1, 12; 4
+# Expected Output:
+# 15 inserted.
+# 10 inserted.
+# 20 inserted.
+# 8 inserted.
+# 12 inserted.
+# In-order Traversal: [8, 10, 12, 15, 20]
+
+# Test Case 2: Delete a node
+# Input:
+# bst_program()
+# Choices: 1, 15; 1, 10; 1, 20; 1, 8; 1, 12; 2, 10; 4
+# Expected Output:
+# 15 inserted.
+# 10 inserted.
+# 20 inserted.
+# 8 inserted.
+# 12 inserted.
+# 10 deleted.
+# In-order Traversal: [8, 12, 15, 20]
+
+# Test Case 3: Search for a node
+# Input:
+# bst_program()
+# Choices: 1, 15; 1, 10; 1, 20; 3, 10; 3, 25
+# Expected Output:
+# 15 inserted.
+# 10 inserted.
+# 20 inserted.
+# 10 found in BST.
+# 25 not found in BST.

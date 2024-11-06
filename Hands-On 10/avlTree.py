@@ -156,3 +156,39 @@ def avl_program():
             print("Invalid choice. Please try again.")
 
 avl_program()
+
+
+# Test cases and expected outputs
+
+# Test Case 1: Insert nodes in AVL tree
+# Input:
+# avl_program()
+# Choices: 1, 20; 1, 10; 1, 30; 1, 5; 1, 25
+# Expected Output:
+# 20 inserted.
+# 10 inserted.
+# 30 inserted.
+# 5 inserted.
+# 25 inserted.
+# In-order Traversal: [5, 10, 20, 25, 30]
+
+# Test Case 2: Delete a node
+# Input:
+# avl_program()
+# Choices: 1, 20; 1, 10; 1, 30; 2, 10; 4
+# Expected Output:
+# 20 inserted.
+# 10 inserted.
+# 30 inserted.
+# 10 deleted.
+# In-order Traversal: [20, 30]
+
+# Test Case 3: Search for a node
+# Input:
+# avl_program()
+# Choices: 1, 20; 1, 10; 3, 10; 3, 15
+# Expected Output:
+# 20 inserted.
+# 10 inserted.
+# 10 found in AVL Tree.
+# 15 not found in AVL Tree.
